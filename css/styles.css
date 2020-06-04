@@ -3,14 +3,19 @@
     padding: 0;
 }
 
+html,
+body {
+    height: 100vh;
+}
+
 body {
     background-color: aliceblue;
-    height: 100vh;
 }
 
 .wrapper {
     display: flex;
-    flex-direction: row;    
+    flex-direction: row;
+    height: 100%;
 }
 
 .wrapper > * {
@@ -25,21 +30,22 @@ ul {
     margin: 0 25px;
 }
 
-.about-me-container{
-    margin: 40px 10px;
-} 
+.about-me-container {
+    margin: 20px 10px;
+}
 
 .about-me-container div {
     margin: 5px 0px;
 }
-.projects-item{
-   padding-left: 20px;
+
+.projects-item {
+    padding-left: 20px;
 }
 
-.about-me-title{
-    margin-top: 10px;
+.about-me-title {
+    margin-top: 20px;
 }
 
-.contacts-container div{
+.contacts-container div {
     margin: 10px;
 }
