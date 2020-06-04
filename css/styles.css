@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: aliceblue;
+    height: 100vh;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;    
+}
+
+.wrapper > * {
+    margin: 20px;
+}
+
+aside div {
+    margin: 20px;
+}
+
+ul {
+    margin: 0 25px;
+}
+
+.about-me-container{
+    margin: 40px 10px;
+} 
+
+.about-me-container div {
+    margin: 5px 0px;
+}
+.projects-item{
+   padding-left: 20px;
+}
+
+.about-me-title{
+    margin-top: 10px;
+}
+
+.contacts-container div{
+    margin: 10px;
+}
